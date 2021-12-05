@@ -1,4 +1,4 @@
-# Rock Scissor Paper Game
+# Rock Paper Scissors Game
 |<img src="src/assets/click-buttons.png" alt="click buttons" />||
 |:-:|:-:|
 |Click each button||
