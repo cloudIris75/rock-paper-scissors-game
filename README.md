@@ -1,9 +1,9 @@
 # Rock Paper Scissors Game
 |<img src="src/assets/click-buttons.png" alt="click buttons" />||
 |:-:|:-:|
-|Click each button||
+|'Scissors' 버튼 클릭 시||
 |<img src="src/assets/result.png" alt="result" />|<img src="src/assets/click-reset.png" alt="click reset" />|
-|Game Result|Click the 'Reset' button|
+|게임 결과 화면|'Reset' 버튼 클릭 시|
 
 ## About
 React로 구현한 가위바위보 게임.
@@ -15,6 +15,6 @@ HTML, CSS, JavaScript, React.js
 2021.11.18. ~ 2021.11.26.
 
 ## Roadmap
-- [X] Add a 'HandButton' component
-- [X] Add a 'HandIcon' component
-- [X] Apply CSS style
+- [X] 가위바위보 아이콘 컴포넌트 추가
+- [X] 가위바위보 버튼 컴포넌트 추가
+- [X] CSS 스타일 적용
