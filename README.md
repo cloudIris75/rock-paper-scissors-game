@@ -1,9 +1,9 @@
 # Rock Paper Scissors Game
 |<img src="src/assets/click-buttons.png" alt="click buttons" />||
 |:-:|:-:|
-|가위 버튼 클릭 시||
+|'가위' 버튼 클릭 시||
 |<img src="src/assets/result.png" alt="result" />|<img src="src/assets/click-reset.png" alt="click reset" />|
-|게임 결과 화면|초기화 버튼 클릭 시|
+|게임 결과 화면|'초기화' 버튼 클릭 시|
 
 ## About
 React로 구현한 가위바위보 게임.
