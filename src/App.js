@@ -1,17 +1,17 @@
-import { useState } from 'react';
-import HandButton from './HandButton';
-import HandIcon from './HandIcon';
-import ResetIcon from './assets/ic-reset.svg';
-import { compareHand, generateRandomHand } from './utils';
-import './css/App.css';
+import { useState } from "react";
+import HandButton from "./HandButton";
+import HandIcon from "./HandIcon";
+import ResetIcon from "./assets/ic-reset.svg";
+import { compareHand, generateRandomHand } from "./utils";
+import "./css/App.css";
 
-const INITIAL_VALUE = 'rock';
+const INITIAL_VALUE = "rock";
 
 function getResult(me, other) {
   const comparison = compareHand(me, other);
-  if (comparison > 0) return '승리';
-  if (comparison < 0) return '패배';
-  return '무승부';
+  if (comparison > 0) return "승리";
+  if (comparison < 0) return "패배";
+  return "무승부";
 }
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
   const [score, setScore] = useState(0);
   const [otherScore, setOtherScore] = useState(0);
   const [bet, setBet] = useState(1);
-  const [myClass, setMyClass] = useState('Hand');
-  const [otherClass, setOtherClass] = useState('Hand');
+  const [myClass, setMyClass] = useState("Hand");
+  const [otherClass, setOtherClass] = useState("Hand");
 
   const handleButtonClick = (nextHand) => {
     const nextOtherHand = generateRandomHand();
@@ -35,15 +35,15 @@ function App() {
 
     if (comparison > 0) {
       setScore(score + bet);
-      setMyClass('Hand winner');
-      setOtherClass('Hand');
+      setMyClass("Hand winner");
+      setOtherClass("Hand");
     } else if (comparison < 0) {
       setOtherScore(otherScore + bet);
-      setOtherClass('Hand winner');
-      setMyClass('Hand');
+      setOtherClass("Hand winner");
+      setMyClass("Hand");
     } else {
-      setMyClass('Hand');
-      setOtherClass('Hand');
+      setMyClass("Hand");
+      setOtherClass("Hand");
     }
   };
 
@@ -54,8 +54,8 @@ function App() {
     setScore(0);
     setOtherScore(0);
     setBet(1);
-    setMyClass('Hand');
-    setOtherClass('Hand');
+    setMyClass("Hand");
+    setOtherClass("Hand");
   };
 
   const handleBetChange = (e) => {
@@ -112,7 +112,7 @@ function App() {
           </div>
           <div className="App-history">
             <h2>승부 기록</h2>
-            <p>{gameHistory.join(', ')}</p>
+            <p>{gameHistory.join(", ")}</p>
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ function App() {
       />
       <HandButton
         className="HandButton"
-        value="scissor"
+        value="scissors"
         onClick={handleButtonClick}
       />
       <HandButton

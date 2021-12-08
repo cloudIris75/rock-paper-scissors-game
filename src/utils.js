@@ -1,9 +1,9 @@
-const HANDS = ['rock', 'scissor', 'paper'];
+const HANDS = ["rock", "scissors", "paper"];
 
 const WINS = {
-  rock: 'scissor',
-  scissor: 'paper',
-  paper: 'rock',
+  rock: "scissors",
+  scissors: "paper",
+  paper: "rock",
 };
 
 export function compareHand(a, b) {
