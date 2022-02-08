@@ -9,7 +9,7 @@
 React로 구현한 가위바위보 게임.
 
 ## Stack
-HTML, CSS, JavaScript, React.js
+HTML, CSS, JavaScript, React
 
 ## Period
 2021.11.18. ~ 2021.11.26.
@@ -18,3 +18,6 @@ HTML, CSS, JavaScript, React.js
 - [X] 가위바위보 아이콘 컴포넌트 추가
 - [X] 가위바위보 버튼 컴포넌트 추가
 - [X] CSS 스타일 적용
+
+## Reference
+[React 웹개발 시작하기 - 코드잇](https://www.codeit.kr/courses/react-frontend-development/topics/getting-started-with-react)
