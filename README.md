@@ -9,7 +9,7 @@
 React로 구현한 가위바위보 게임.
 
 ## Stack
-HTML, CSS, JavaScript, React
+HTML, CSS, JavaScript, React.js
 
 ## Period
 2021.11.18. ~ 2021.11.26.
@@ -20,4 +20,4 @@ HTML, CSS, JavaScript, React
 - [X] CSS 스타일 적용
 
 ## Reference
-[React 웹개발 시작하기 - 코드잇](https://www.codeit.kr/courses/react-frontend-development/topics/getting-started-with-react)
+[React 웹 개발 시작하기 - 코드잇](https://www.codeit.kr/courses/react-frontend-development/topics/getting-started-with-react)
